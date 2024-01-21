@@ -282,8 +282,7 @@ header {
   align-items: center;
   justify-content: center;
   height: 60px;
-  background-color: transparent;
-  position: absolute;
+  background-color: #2B2B2B;
 }
 header .dropdown {
   display: none;
