@@ -1,0 +1,26 @@
+const wishlistdiv = document.getElementById('wishlistdiv')
+
+function getproducts(){
+    wishlistdiv.innerHTML = ''
+    let wishlist = JSON.parse(localStorage.getItem('wishlist')) || []
+wishlist.map((item,index)=>{
+        let box = document.createElement('div')
+        box.className = 'box col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4'
+    box.innerHTML = `
+    <img src="${item.image}" alt="">
+<p>${item.name}</p>
+<p>${item.price}</p>
+<button onclick="removefromwishlist(${index})">Remove<i class="fa-solid fa-heart"></i></button></div>
+
+    `
+    wishlistdiv.appendChild(box)
+    })
+}
+getproducts()
+
+function removefromwishlist (index){
+    let wishlist = JSON.parse(localStorage.getItem('wishlist')) || []
+    wishlist.splice(index,1)
+    localStorage.setItem('wishlist',JSON.stringify(wishlist))
+    getproducts()
+}

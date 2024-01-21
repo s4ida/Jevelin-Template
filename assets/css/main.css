@@ -1,0 +1,667 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#addheader {
+  background-color: black;
+  position: static;
+}
+
+#adddiv {
+  background-color: gray;
+  display: flex;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#adddiv .tablediv table {
+  border: 1px solid black;
+  width: 700px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#adddiv .tablediv table tr {
+  display: flex;
+  justify-content: space-between;
+}
+#adddiv .tablediv table tr th {
+  margin-bottom: 20px;
+  width: 40%;
+  border: 1px solid black;
+  padding: 10px;
+}
+#adddiv .tablediv table tr td {
+  width: 40%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#adddiv .tablediv table tr td button {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border: 1px solid #7D1EFF;
+  border-radius: 30px;
+  padding: 3px;
+}
+#adddiv .tablediv table tr td button:hover {
+  background-color: #7D1EFF;
+  transition: 0.3s;
+  color: white;
+}
+#adddiv .tablediv table tr td img {
+  width: 50%;
+  height: 70%;
+}
+#adddiv #postform {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#adddiv #postform input {
+  width: 100%;
+  color: black;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-weight: bolder;
+  padding: 13px;
+}
+#adddiv #postform button {
+  background-color: #7D1EFF;
+  color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-weight: bolder;
+  width: 40%;
+  padding: 13px;
+  margin-bottom: 30px;
+}
+#adddiv #postform button:hover {
+  background-color: white;
+  color: #7D1EFF;
+  border: 2px solid #7D1EFF;
+  transition: 0.3s;
+}
+#adddiv .selectandsearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+#adddiv .selectandsearch select {
+  background-color: #7D1EFF;
+  color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-weight: bolder;
+  padding: 13px;
+}
+#adddiv .selectandsearch select:hover {
+  background-color: white;
+  color: #7D1EFF;
+  border: 2px solid #7D1EFF;
+  transition: 0.3s;
+}
+#adddiv .selectandsearch #searchform input {
+  color: black;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-weight: bolder;
+  padding: 13px;
+}
+#adddiv .selectandsearch #searchform button {
+  background-color: #7D1EFF;
+  color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-weight: bolder;
+  padding: 13px;
+}
+#adddiv .selectandsearch #searchform button:hover {
+  background-color: white;
+  color: #7D1EFF;
+  border: 2px solid #7D1EFF;
+  transition: 0.3s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#basketheader {
+  background-color: black;
+  margin-bottom: 30px;
+}
+
+#basketdiv {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+#basketdiv .box {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+#basketdiv .box p {
+  font-weight: bolder;
+  margin-top: 10px;
+  color: black;
+}
+#basketdiv .box img {
+  margin-top: 30px;
+}
+#basketdiv .box button {
+  background-color: #7D1EFF;
+  color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-weight: bolder;
+  padding: 13px;
+}
+#basketdiv .box button:hover {
+  background-color: white;
+  color: #7D1EFF;
+  border: 2px solid #7D1EFF;
+  transition: 0.3s;
+}
+#basketdiv .box img {
+  width: 100%;
+}
+
+.titlediv {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.titlediv h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #9b9b9b;
+}
+.titlediv h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wishlistheader {
+  background-color: black;
+  margin-bottom: 30px;
+}
+
+#wishlistdiv {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  height: 600px;
+}
+#wishlistdiv .box {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+#wishlistdiv .box p {
+  font-weight: bolder;
+  margin-top: 10px;
+  color: black;
+}
+#wishlistdiv .box img {
+  margin-top: 30px;
+}
+#wishlistdiv .box button {
+  background-color: #7D1EFF;
+  color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-weight: bolder;
+  padding: 13px;
+}
+#wishlistdiv .box button:hover {
+  background-color: white;
+  color: #7D1EFF;
+  border: 2px solid #7D1EFF;
+  transition: 0.3s;
+}
+#wishlistdiv .box img {
+  width: 100%;
+}
+
+.titlediv {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.titlediv h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #9b9b9b;
+}
+.titlediv h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background-color: transparent;
+  position: absolute;
+}
+header .dropdown {
+  display: none;
+}
+header .dropdown button {
+  width: 150px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: end;
+}
+header .dropdown button i {
+  color: white;
+  font-weight: bolder;
+}
+header .headercontainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 10px;
+}
+header .headercontainer .navdiv {
+  display: flex;
+  gap: 30px;
+}
+header .headercontainer .navdiv a {
+  color: white;
+  font-weight: bolder;
+}
+header .headercontainer .btnsdiv {
+  color: #7D1EFF;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .headercontainer .btnsdiv button {
+  background-color: #7D1EFF;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  font-weight: bolder;
+  width: 180px;
+  padding: 13px;
+}
+
+main #entrancesection {
+  background-color: #2B2B2B;
+  width: 100%;
+}
+main #entrancesection .container {
+  width: 95%;
+  padding: 10px;
+}
+main #entrancesection .container .row .textentrance {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+main #entrancesection .container .row .textentrance h1 {
+  font-size: 61px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 30px;
+}
+main #entrancesection .container .row .textentrance h1 span {
+  color: #7D1EFF;
+}
+main #entrancesection .container .row .textentrance h3 {
+  font-size: 12px;
+  color: white;
+  margin-bottom: 30px;
+}
+main #entrancesection .container .row .textentrance p {
+  font-size: 11px;
+  color: rgb(168, 167, 167);
+}
+main #entrancesection .container .row .imgentrance {
+  margin-top: 30px;
+  padding: 30px;
+}
+main #entrancesection .container .row .imgentrance img {
+  width: 100%;
+}
+main #splendidfeatures {
+  margin-top: 30px;
+  width: 100%;
+}
+main #splendidfeatures .container {
+  width: 95%;
+  margin-top: 30px;
+}
+main #splendidfeatures .container .row .featureimg {
+  margin-bottom: 30px;
+}
+main #splendidfeatures .container .row .featureimg img {
+  width: 100%;
+}
+main #splendidfeatures .container .row .textfeature {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+main #splendidfeatures .container .row .textfeature .title h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #aca3ba;
+}
+main #splendidfeatures .container .row .textfeature .title h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+main #splendidfeatures .container .row .textfeature .featurediv {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+main #splendidfeatures .container .row .textfeature .featurediv .icondiv i {
+  color: #8d8698;
+  margin-top: 5px;
+  font-size: 25px;
+}
+main #splendidfeatures .container .row .textfeature .featurediv .textdiv h3 {
+  font-size: 16px;
+  font-weight: 800;
+  color: black;
+}
+main #splendidfeatures .container .row .textfeature .featurediv .textdiv p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8d8698;
+  width: 70%;
+}
+main #seeyourself {
+  width: 100%;
+  background-color: #F4F4F4;
+  margin-top: 30px;
+}
+main #seeyourself .container {
+  width: 95%;
+  margin-top: 30px;
+}
+main #seeyourself .container .seediv {
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+main #seeyourself .container .seediv h3 {
+  font-size: 15px;
+  color: #aca3ba;
+  font-weight: 700;
+}
+main #seeyourself .container .seediv h1 {
+  font-size: 48px;
+  display: flex;
+  flex-direction: column;
+  color: #7d1eff;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+main #seeyourself .container .seediv h1 span {
+  color: black;
+}
+main #seeyourself .container .seediv p {
+  font-size: 18px;
+  font-weight: 400;
+  width: 50%;
+}
+main #choose {
+  width: 100%;
+  background-color: #2B2B2B;
+}
+main #choose .container {
+  width: 95%;
+}
+main #choose .container #apidiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+main #choose .container #apidiv .box {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main #choose .container #apidiv .box p {
+  font-weight: bolder;
+  margin-top: 10px;
+  color: white;
+}
+main #choose .container #apidiv .box .buttons {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 15px;
+}
+main #choose .container #apidiv .box .buttons button {
+  background-color: #7D1EFF;
+  color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-weight: bolder;
+  padding: 13px;
+}
+main #choose .container #apidiv .box .buttons button:hover {
+  background-color: white;
+  color: #7D1EFF;
+  border: 2px solid #7D1EFF;
+  transition: 0.3s;
+}
+main #choose .container #apidiv .box img {
+  width: 100%;
+}
+main #choose .container .titlediv {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+main #choose .container .titlediv h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #9b9b9b;
+}
+main #choose .container .titlediv h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+main #customers {
+  width: 100%;
+  background-color: #F4F4F4;
+}
+main #customers .container {
+  width: 95%;
+}
+main #customers .container .titlediv {
+  text-align: center;
+}
+main #customers .container .titlediv h1 {
+  font-size: 48px;
+  color: black;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+}
+main #customers .container .maindiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 30px;
+}
+main #customers .container .maindiv img {
+  margin-top: 30px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+main #customers .container .maindiv p {
+  width: 50%;
+  color: #a1a1a1;
+  font-size: 18px;
+}
+main #customers .container .maindiv h6 {
+  font-size: 18px;
+  color: #7d1eff;
+  font-weight: bolder;
+}
+main #customers .container .maindiv span {
+  font-size: 40px;
+  color: #9b9b9b;
+}
+main #customers .customersdiv {
+  background-color: #7D1EFF;
+  text-align: center;
+  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #b2a8c0;
+  gap: 30px;
+}
+
+footer {
+  width: 100%;
+  background-color: #363636;
+}
+footer .container {
+  width: 95%;
+}
+footer .container .row .payment {
+  margin-top: 30px;
+}
+footer .container .row .payment img {
+  margin-bottom: 10px;
+}
+footer .container .row .payment p {
+  color: #a1a1a1;
+}
+footer .container .row .payment p i {
+  color: #a1a1a1;
+  margin-right: 3px;
+}
+footer .container .row .experience {
+  margin-top: 30px;
+}
+footer .container .row .experience h1 {
+  font-size: 16px;
+  color: white;
+  font-weight: bolder;
+  margin-left: 30px;
+}
+footer .container .row .experience ul {
+  list-style: none;
+  margin-left: 0px;
+}
+footer .container .row .experience ul li {
+  font-size: 16px;
+  color: #a1a1a1;
+}
+footer .container .row .company {
+  margin-top: 30px;
+}
+footer .container .row .company h1 {
+  font-size: 16px;
+  color: white;
+  font-weight: bolder;
+  margin-left: 30px;
+}
+footer .container .row .company ul {
+  list-style: none;
+  margin-left: 0px;
+}
+footer .container .row .company ul li {
+  font-size: 16px;
+  color: #a1a1a1;
+}
+footer .container .footdiv {
+  text-align: center;
+  margin-top: 30px;
+}
+footer .container .footdiv p {
+  color: #a1a1a1;
+  margin-bottom: 0rem;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    position: static;
+    background-color: #2B2B2B;
+  }
+  header .headercontainer .navdiv {
+    display: none;
+  }
+  header .headercontainer .btnsdiv {
+    display: none;
+  }
+  header .dropdown {
+    display: block;
+  }
+  main #seeyourself .container .seediv h1 {
+    font-size: 45px;
+  }
+  main #seeyourself .container .seediv p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+  main #entrancesection .container .row .textentrance h1 {
+    font-size: 45px;
+  }
+}
